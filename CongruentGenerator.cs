@@ -12,11 +12,9 @@
         private int OddCounter { get; set; }
         private int ZeroCounter { get; set; }
         private int OneCounter { get; set; }
-        
         /// List нужен только для отображения последовательности в двоичном виде
         /// Обработка членов последовательности происходит по мере их генерации 
         private List<int> DecimalList { get; }
-
 
         public CongruentGenerator(int a, int c, int m, int initialValue)
         {
@@ -127,7 +125,6 @@
         {
             Console.WriteLine("\nКоличество четных элементов {0}", EvenCounter);
             Console.WriteLine("Количество нечетных элементов {0}", OddCounter);
-            Console.ReadKey();
         }
 
         /// <summary>

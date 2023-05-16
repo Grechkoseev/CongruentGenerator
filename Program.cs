@@ -32,6 +32,8 @@
             generator.PrintSequenceLength();
             generator.PrintZerosOnesCounters();
             generator.PrintEventOddCounters();
+
+            Console.ReadKey();
         }
     }
 }
